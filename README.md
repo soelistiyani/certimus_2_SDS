@@ -6,6 +6,7 @@ Penggunaan:
     python convert.py
 
 Format File dari Certimus: 
+
     SerialNumber_SensornumberTipedataChannelA_______00SamplingRate_Number.mseed
     005869_S1SeisZA_______00100_00012.mseed
 
