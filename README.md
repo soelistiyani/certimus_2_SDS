@@ -42,6 +42,7 @@ input_folder: berisi direktori data mseed yang dicopy dari Certimus
 
 sds_root: folder output untuk data format SDS
 
+
 [header]
 
 new_network: untuk data PVMBG menggunakan network VG
@@ -49,6 +50,7 @@ new_network: untuk data PVMBG menggunakan network VG
 new_station: jika hanya konversi 1 stasiun, maka wajib diisi dengan nama stasiun. Jika konversi lebih dari 1 stasiun, maka kosongkan parameter ini, namun station mapping harus diisi.
 
 force_location: untuk data PVMBG, secara default location-nya 00, kecuali jika ada perubahan lokasi sensor/perubahan sensor. 
+
 
 [station_map]
 
