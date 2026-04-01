@@ -1,4 +1,4 @@
-# certimus_2_SDS
+# Certimus_2_SDS
 Mengkonversi data seismik berformat MiniSEED dari Guralp Certimus ke dalam format MiniSEED struktur SDS.
 
 Penggunaan:
@@ -53,12 +53,15 @@ force_location: untuk data PVMBG, secara default location-nya 00, kecuali jika a
 [station_map]
 
 004E69 = TDNR (serial number = nama stasiun baru)
+
 ; 00665 = ANYR tanda ; artinya tidak dibaca
 
 [station_map]
 
 SHZ = HHZ     → mapping komponen SHZ ke HHZ, dst
+
 SHN = HHN
+
 SHE = HHE
 
 
