@@ -37,22 +37,31 @@ File konfigurasi di config.ini:
 Keterangan:
 
 [paths]
+
 input_folder: berisi direktori data mseed yang dicopy dari Certimus
+
 sds_root: folder output untuk data format SDS
 
 [header]
 
 new_network: untuk data PVMBG menggunakan network VG
+
 new_station: jika hanya konversi 1 stasiun, maka wajib diisi dengan nama stasiun. Jika konversi lebih dari 1 stasiun, maka kosongkan parameter ini, namun station mapping harus diisi.
+
 force_location: untuk data PVMBG, secara default location-nya 00, kecuali jika ada perubahan lokasi sensor/perubahan sensor. 
 
 [station_map]
+
 004E69 = TDNR (serial number = nama stasiun baru)
+
 ; 00665 = ANYR tanda ; artinya tidak dibaca
 
 [station_map]
+
 SHZ = HHZ     → mapping komponen SHZ ke HHZ, dst
+
 SHN = HHN
+
 SHE = HHE
 
 
