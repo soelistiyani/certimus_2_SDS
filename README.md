@@ -8,6 +8,9 @@ Penggunaan:
 Format File dari Certimus: 
 
     SerialNumber_SensornumberTipedataChannelA_______00SamplingRate_Number.mseed
+
+Contoh:
+
     005869_S1SeisZA_______00100_00012.mseed
 
 File konfigurasi di config.ini: 
@@ -32,14 +35,15 @@ File konfigurasi di config.ini:
     SHE = HHE
 
 Keterangan:
+
 [paths]
 Input_folder: berisi direktori data mseed yang dicopy dari Certimus
 Sds_root: folder output untuk data format SDS
 
 [header]
 New_network: untuk data PVMBG menggunakan network VG
-New_station: jika hanya konversi 1 stasiun, maka wajib diisi dengan nama stasiun. Jika konversi lebih dari 1 stasiun maka kosongkan parameter ini, namun station mapping harus diisi. 
-force_location: untuk data PVMBG secara default locationnya 00 kecuali jika ada perubahan lokasi sensor/perubahan sensor. 
+New_station: jika hanya konversi 1 stasiun, maka wajib diisi dengan nama stasiun. Jika konversi lebih dari 1 stasiun, maka kosongkan parameter ini, namun station mapping harus diisi. 
+force_location: untuk data PVMBG, secara default location-nya 00, kecuali jika ada perubahan lokasi sensor/perubahan sensor. 
 
 [station_map]
 004E69 = TDNR (serial number = nama stasiun baru)
