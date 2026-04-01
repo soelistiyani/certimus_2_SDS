@@ -53,16 +53,14 @@ force_location: untuk data PVMBG, secara default location-nya 00, kecuali jika a
 [station_map]
 
 004E69 = TDNR (serial number = nama stasiun baru)
-
 ; 00665 = ANYR tanda ; artinya tidak dibaca
 
 [station_map]
 
 SHZ = HHZ     → mapping komponen SHZ ke HHZ, dst
-
 SHN = HHN
-
 SHE = HHE
+
 
 
 Output Struktur SDS:
